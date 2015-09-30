@@ -40,7 +40,8 @@ public class SeřazeníTříČísel {
             int pom = a;
             a = b;
             b = pom;
-        }    
+        }
+        System.out.println("seřazení: "+a+" "+b+" "+c);
     }
-       System.out.println("seřazení: "+a+" "+b""+c);
+       
 }
