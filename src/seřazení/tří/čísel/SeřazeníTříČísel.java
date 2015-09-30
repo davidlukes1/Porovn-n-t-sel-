@@ -5,8 +5,6 @@
  */
 package seřazení.tří.čísel;
 
-import static java.time.Clock.system;
-
 /**
  *
  * @author david.lukes1
@@ -17,9 +15,14 @@ public class SeřazeníTříČísel {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int a = 3;
-        int b = 2;
-        int c = 1;
+        Scanner vstup = new Scanner(System.in);
+        System.out.print("zadej 1. číslo: ");
+        int a = vstup.nextInt();
+        System.out.print("zadej 2. číslo: ");
+        int b = vstup.nextInt();
+        System.out.print("zadej 3. číslo: ");
+        int c = vstup.nextInt();
+        
         
         if (a>b) {
             int pom = a;
