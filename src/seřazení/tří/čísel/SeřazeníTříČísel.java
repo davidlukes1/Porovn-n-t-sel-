@@ -5,6 +5,8 @@
  */
 package seřazení.tří.čísel;
 
+import java.util.Scanner;
+
 /**
  *
  * @author david.lukes1
